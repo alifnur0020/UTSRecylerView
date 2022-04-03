@@ -1,6 +1,7 @@
 package com.alifnur.utsrecylerview.alifnurdata
 import com.alifnur.utsrecylerview.R
 import com.alifnur.utsrecylerview.alifnurmodel.Berita
+//Class untuk data yang akan ditampilkan
 class Datasource {
     fun loadAffirmations(): List<Berita> {
         return listOf<Berita>(
